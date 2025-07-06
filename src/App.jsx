@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 const App = () => {
   return (
-    <div>
-      <h1 className="underline">Hello</h1>
-    </div>
+    <>
+      <Navbar />
+      <Footer />
+    </>
   );
 };
 
