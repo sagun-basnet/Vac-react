@@ -1,13 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const HeroSection = (props) => {
-  console.log(props);
-
+const HeroSection = () => {
   return (
-    <>
-      <h1>{props.heading}</h1>
-    </>
-  );
-};
+    <div>HeroSection</div>
+  )
+}
 
-export default HeroSection;
+export default HeroSection
