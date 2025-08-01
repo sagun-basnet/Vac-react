@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LoginPage from "./pages/LoginPage";
+import FetchAPI from "./components/FetchAPI";
 
 const App = () => {
   const Layout = () => {
@@ -76,6 +77,10 @@ const App = () => {
     {
       path: "/login",
       element: <LoginPage />,
+    },
+    {
+      path: "/fetch-api",
+      element: <FetchAPI />,
     },
     {
       path: "*",

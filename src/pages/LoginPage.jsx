@@ -4,8 +4,7 @@ const LoginPage = () => {
   const user = {
     email: "jhon@gmail.com",
     password: "1234567890",
-  }
-
+  };
 
   const [formData, setFormData] = useState({
     email: "",
