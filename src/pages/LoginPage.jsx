@@ -27,6 +27,7 @@ const LoginPage = () => {
       return;
     }
     console.log(formData);
+    localStorage.setItem("loginUser", JSON.stringify(formData));
   };
 
   return (

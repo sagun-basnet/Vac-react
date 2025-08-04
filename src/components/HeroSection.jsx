@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const HeroSection = () => {
-  return (
-    <div>HeroSection</div>
-  )
-}
+  const email = JSON.parse(localStorage.getItem("loginUser")).email;
+  console.log(email);
 
-export default HeroSection
+  return (
+    <div>
+      <h1 className="text-6xl font-bold text-center">{email}</h1>
+    </div>
+  );
+};
+
+export default HeroSection;
